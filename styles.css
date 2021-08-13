@@ -26,11 +26,11 @@ body {
 }
 
 .😀 :first-child:hover {
-    color: #07DA70;
-    transform: translateX(-1%) scale(1.05);
+    color: #F8CF3A;
+    transform: translateX(-1%) scale(1.1);
 }
 
 .😀 :last-child:hover {
-    color: #07DA70;
-    transform: scale(1.1);
+    color: #F8CF3A;
+    transform: scale(1.2);
 }
