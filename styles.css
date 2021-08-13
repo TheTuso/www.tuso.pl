@@ -25,7 +25,7 @@ body {
     transition: ease-in-out 0.3s;
 }
 
-.😀 :first-child:hover {
+.😀 :hover {
     color: #F8CF3A;
     transform: translateX(-1%) scale(1.1);
 }
