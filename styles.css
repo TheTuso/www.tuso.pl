@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: #000;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+.😀 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    line-height: 0;
+}
+
+.🙂 {
+    transition: ease-in-out 0.3s;
+}
+
+.😀 :first-child:hover {
+    color: #07DA70;
+    transform: translateX(-1%) scale(1.05);
+}
+
+.😀 :last-child:hover {
+    color: #07DA70;
+    transform: scale(1.1);
+}
