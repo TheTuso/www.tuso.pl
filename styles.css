@@ -22,15 +22,10 @@ body {
 }
 
 .🙂 {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.2s;
 }
 
 .😀 :hover {
     color: #F8CF3A;
-    transform: translateX(-1%) scale(1.1);
-}
-
-.😀 :last-child:hover {
-    color: #F8CF3A;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
